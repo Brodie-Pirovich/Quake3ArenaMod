@@ -1,0 +1,18 @@
+﻿Build started 1/12/2019 3:44:58 PM.
+     1>Project "C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\q3_ui\q3_ui.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /D _USRDLL /D UI_EXPORTS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug/" /Fd"Debug/vc120.pdb" /FR".\Debug_TA\\" /Gd /TC /analyze- /errorReport:prompt ..\ui\ui_syscalls.c
+         ui_syscalls.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\q3_ui\.\Debug_TA\q3_ui.dll) does not match the Linker's OutputFile property value (C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\Debug_TA\uix86_old.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(q3_ui) does not match the Linker's OutputFile property value (uix86_old). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../Debug_TA/uix86_old.dll" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\ui.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"../Debug_TA/ui.pdb" /MAP:"Debug_TA/uix86.map" /TLBID:1 /BASE:"0x40000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_TA/uix86.lib" /MACHINE:X86 /SAFESEH /DLL Debug/ui_syscalls.obj
+     1>ui_syscalls.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>ui.def : error LNK2001: unresolved external symbol vmMain
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(607,5): error MSB6006: "link.exe" exited with code 1120.
+     1>Debug_TA/uix86.lib : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\q3_ui\q3_ui.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.15

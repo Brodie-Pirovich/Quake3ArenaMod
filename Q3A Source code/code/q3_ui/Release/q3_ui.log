@@ -1,0 +1,162 @@
+﻿Build started 1/12/2019 3:46:36 PM.
+     1>Project "C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\q3_ui\q3_ui.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /D _USRDLL /D Q3_UI_EXPORTS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\game\bg_misc.c ..\game\q_math.c ..\game\q_shared.c ..\ui\ui_syscalls.c ui_addbots.c ui_atoms.c ui_cdkey.c ui_cinematics.c ui_confirm.c ui_connect.c ui_controls2.c ui_credits.c ui_demo2.c ui_display.c ui_gameinfo.c ui_ingame.c ui_main.c ui_menu.c ui_mfield.c ui_mods.c ui_network.c ui_options.c ui_playermodel.c ui_players.c ui_playersettings.c ui_preferences.c ui_qmenu.c ui_removebots.c ui_serverinfo.c ui_servers2.c ui_setup.c ui_sound.c ui_sparena.c ui_specifyserver.c ui_splevel.c ui_sppostgame.c ui_spreset.c ui_spskill.c ui_startserver.c ui_team.c ui_teamorders.c ui_video.c
+         bg_misc.c
+         q_math.c
+         q_shared.c
+     1>..\game\q_shared.c(268): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>..\game\q_shared.c(280): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>..\game\q_shared.c(723): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>..\game\q_shared.c(876): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>..\game\q_shared.c(912): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>..\game\q_shared.c(1072): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\game\q_shared.c(1127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\game\q_shared.c(1202): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\game\q_shared.c(1203): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>..\game\q_shared.c(1250): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         ui_syscalls.c
+         ui_addbots.c
+         ui_atoms.c
+     1>ui_atoms.c(41): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>ui_atoms.c(52): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+         ui_cdkey.c
+         ui_cinematics.c
+         ui_confirm.c
+         ui_connect.c
+         ui_controls2.c
+     1>ui_controls2.c(671): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_controls2.c(683): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_controls2.c(684): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_controls2.c(745): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         ui_credits.c
+         ui_demo2.c
+     1>ui_demo2.c(232): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         ui_display.c
+         ui_gameinfo.c
+     1>ui_gameinfo.c(121): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_gameinfo.c(128): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_gameinfo.c(195): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_gameinfo.c(196): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_gameinfo.c(382): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_gameinfo.c(383): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         ui_ingame.c
+         ui_main.c
+         ui_menu.c
+         ui_mfield.c
+         ui_mods.c
+         Generating Code...
+         Compiling...
+         ui_network.c
+         ui_options.c
+         ui_playermodel.c
+     1>ui_playermodel.c(340): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_playermodel.c(481): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         ui_players.c
+     1>ui_players.c(91): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_players.c(93): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_players.c(97): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_players.c(99): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         ui_playersettings.c
+     1>ui_playersettings.c(241): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         ui_preferences.c
+         ui_qmenu.c
+     1>ui_qmenu.c(124): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_qmenu.c(128): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         ui_removebots.c
+         ui_serverinfo.c
+         ui_servers2.c
+     1>ui_servers2.c(418): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_servers2.c(434): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_servers2.c(437): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_servers2.c(762): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_servers2.c(951): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_servers2.c(956): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_servers2.c(1027): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_servers2.c(1031): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_servers2.c(1035): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_servers2.c(1039): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_servers2.c(1045): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_servers2.c(1049): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_servers2.c(1149): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         ui_setup.c
+         ui_sound.c
+         ui_sparena.c
+         ui_specifyserver.c
+     1>ui_specifyserver.c(81): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         ui_splevel.c
+     1>ui_splevel.c(234): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_splevel.c(236): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         ui_sppostgame.c
+         ui_spreset.c
+         ui_spskill.c
+         ui_startserver.c
+     1>ui_startserver.c(206): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_startserver.c(219): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_startserver.c(1104): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>ui_startserver.c(1162): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         ui_team.c
+         Generating Code...
+         Compiling...
+         ui_teamorders.c
+         ui_video.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\q3_ui\.\Release\q3_ui.dll) does not match the Linker's OutputFile property value (C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\Release\uix86.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(q3_ui) does not match the Linker's OutputFile property value (uix86). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../Release/uix86.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\ui.def" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\Release/uix86.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release/uix86.lib" /MACHINE:X86 /SAFESEH /DLL .\Release/bg_misc.obj
+         .\Release/q_math.obj
+         .\Release/q_shared.obj
+         .\Release/ui_syscalls.obj
+         .\Release/ui_addbots.obj
+         .\Release/ui_atoms.obj
+         .\Release/ui_cdkey.obj
+         .\Release/ui_cinematics.obj
+         .\Release/ui_confirm.obj
+         .\Release/ui_connect.obj
+         .\Release/ui_controls2.obj
+         .\Release/ui_credits.obj
+         .\Release/ui_demo2.obj
+         .\Release/ui_display.obj
+         .\Release/ui_gameinfo.obj
+         .\Release/ui_ingame.obj
+         .\Release/ui_main.obj
+         .\Release/ui_menu.obj
+         .\Release/ui_mfield.obj
+         .\Release/ui_mods.obj
+         .\Release/ui_network.obj
+         .\Release/ui_options.obj
+         .\Release/ui_playermodel.obj
+         .\Release/ui_players.obj
+         .\Release/ui_playersettings.obj
+         .\Release/ui_preferences.obj
+         .\Release/ui_qmenu.obj
+         .\Release/ui_removebots.obj
+         .\Release/ui_serverinfo.obj
+         .\Release/ui_servers2.obj
+         .\Release/ui_setup.obj
+         .\Release/ui_sound.obj
+         .\Release/ui_sparena.obj
+         .\Release/ui_specifyserver.obj
+         .\Release/ui_splevel.obj
+         .\Release/ui_sppostgame.obj
+         .\Release/ui_spreset.obj
+         .\Release/ui_spskill.obj
+         .\Release/ui_startserver.obj
+         .\Release/ui_team.obj
+         .\Release/ui_teamorders.obj
+         .\Release/ui_video.obj
+            Creating library .\Release/uix86.lib and object .\Release/uix86.exp
+         q3_ui.vcxproj -> C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\q3_ui\.\Release\q3_ui.dll
+     1>Done Building Project "C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\q3_ui\q3_ui.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.02

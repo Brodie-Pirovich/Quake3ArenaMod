@@ -1,0 +1,387 @@
+﻿Build started 1/12/2019 3:45:13 PM.
+     1>Project "C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\quake3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug_TA/" /Fd".\Debug_TA/vc120.pdb" /FR".\Debug_TA/" /Gd /TC /analyze- /errorReport:prompt client\cl_cgame.c client\cl_cin.c client\cl_console.c client\cl_input.c client\cl_keys.c client\cl_main.c client\cl_net_chan.c client\cl_parse.c client\cl_scrn.c client\cl_ui.c client\snd_adpcm.c client\snd_dma.c client\snd_mem.c client\snd_mix.c client\snd_wavelet.c game\q_math.c game\q_shared.c qcommon\cmd.c qcommon\cm_load.c qcommon\cm_patch.c qcommon\cm_polylib.c qcommon\cm_test.c qcommon\cm_trace.c qcommon\common.c qcommon\cvar.c qcommon\files.c qcommon\huffman.c qcommon\md4.c qcommon\msg.c qcommon\net_chan.c qcommon\unzip.c qcommon\vm.c qcommon\vm_interpreted.c qcommon\vm_x86.c server\sv_bot.c server\sv_ccmds.c server\sv_client.c server\sv_game.c server\sv_init.c server\sv_main.c server\sv_net_chan.c server\sv_snapshot.c server\sv_world.c win32\win_input.c win32\win_main.c win32\win_net.c win32\win_shared.c win32\win_snd.c win32\win_syscon.c win32\win_wndproc.c
+         cl_cgame.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_cgame.c(314): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_cgame.c(323): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_cgame.c(324): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_cgame.c(626): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+         cl_cin.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_cin.c(1507): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         cl_console.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_console.c(218): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+         cl_input.c
+         cl_keys.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_keys.c(913): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_keys.c(915): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+         cl_main.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(972): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(973): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(976): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(977): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(980): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _putenv. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(941) : see declaration of 'putenv'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(982): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdlib.h(462) : see declaration of 'getenv'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(1118): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(1120): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(1121): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(1124): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(1534): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(2084): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(2609): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(186) : see declaration of 'strncat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(2784): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(2888): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(2894): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(2898): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_main.c(3311): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         cl_net_chan.c
+         cl_parse.c
+         cl_scrn.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_scrn.c(340): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         cl_ui.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\cl_ui.c(1046): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+         snd_adpcm.c
+         snd_dma.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\snd_dma.c(323): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\snd_dma.c(1346): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\snd_dma.c(1347): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\snd_dma.c(1348): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\snd_dma.c(1349): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\snd_dma.c(1350): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\client\snd_dma.c(1351): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         snd_mem.c
+         snd_mix.c
+         snd_wavelet.c
+         q_math.c
+         q_shared.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\game\q_shared.c(268): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\game\q_shared.c(280): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\game\q_shared.c(723): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\game\q_shared.c(876): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\game\q_shared.c(912): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\game\q_shared.c(1072): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\game\q_shared.c(1127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\game\q_shared.c(1202): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\game\q_shared.c(1203): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\game\q_shared.c(1250): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+         cmd.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\cmd.c(371): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\cmd.c(373): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\cmd.c(395): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\cmd.c(397): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+         cm_load.c
+         cm_patch.c
+         Generating Code...
+         Compiling...
+         cm_polylib.c
+         cm_test.c
+         cm_trace.c
+         common.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\common.c(149): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\common.c(183): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\common.c(186): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.h(174) : see declaration of 'asctime'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\common.c(218): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\common.c(274): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\common.c(691): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\common.c(1154): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\common.c(2258): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\common.c(2288): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\common.c(2302): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\common.c(2320): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         cvar.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\cvar.c(541): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\cvar.c(543): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+         files.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(533): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(552): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(589): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(612): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(650): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(693): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(709): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(729): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(873): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(916): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(1030): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(1184): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(1358): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(1757): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(1804): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(2023): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(2191): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(2192): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(2204): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(2209): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(2211): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\files.c(2513): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         huffman.c
+         md4.c
+         msg.c
+         net_chan.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\net_chan.c(659): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+         unzip.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\unzip.c(1293): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\unzip.c(1330): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         vm.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\qcommon\vm.c(820): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+         vm_interpreted.c
+         vm_x86.c
+         sv_bot.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\server\sv_bot.c(142): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+         sv_ccmds.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\server\sv_ccmds.c(610): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\server\sv_ccmds.c(618): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+         sv_client.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\server\sv_client.c(124): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\server\sv_client.c(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\server\sv_client.c(198): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\server\sv_client.c(210): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+         sv_game.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\server\sv_game.c(831): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+         sv_init.c
+         sv_main.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\server\sv_main.c(104): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\server\sv_main.c(105): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\server\sv_main.c(172): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(346) : see declaration of '_vsnprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\server\sv_main.c(322): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\server\sv_main.c(350): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         Generating Code...
+         Compiling...
+         sv_net_chan.c
+         sv_snapshot.c
+         sv_world.c
+         win_input.c
+         win_main.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_main.c(56): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(336) : see declaration of 'open'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_main.c(64): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(326) : see declaration of 'close'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_main.c(77): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_main.c(78): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\io.h(342) : see declaration of 'write'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_main.c(119): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_main.c(430): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_main.c(431): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_main.c(432): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_main.c(437): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_main.c(438): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_main.c(439): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_main.c(483): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(204) : see declaration of 'strtok'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_main.c(1059): warning C4996: 'GetVersionExA': was declared deprecated
+                 c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433) : see declaration of 'GetVersionExA'
+         win_net.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_net.c(182): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_net.c(183): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_net.c(184): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_net.c(185): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_net.c(186): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_net.c(187): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_net.c(188): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_net.c(189): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_net.c(190): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_net.c(191): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_net.c(491): warning C4133: 'function' : incompatible types - from 'qboolean *' to 'u_long *'
+         win_shared.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_shared.c(288): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_shared.c(292): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         win_snd.c
+         win_syscon.c
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_syscon.c(279): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(186) : see declaration of 'strncat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_syscon.c(280): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : see declaration of 'strcat'
+     1>c:\program files (x86)\steam\steamapps\common\quake 3 arena\source\code\win32\win_syscon.c(487): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+         win_wndproc.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /l"0x0409" /Iwin32 /nologo /fo"win32\winquake.res" win32\winquake.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug_TA/quake3.exe" /INCREMENTAL /NOLOGO winmm.lib wsock32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Debug_TA/quake3.pdb" /MAP:"Debug_TA/quake3.map" /SUBSYSTEM:WINDOWS /STACK:"8388608" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug_TA\quake3.lib" /MACHINE:X86 /SAFESEH win32\winquake.res
+         .\Debug_TA/cl_cgame.obj
+         .\Debug_TA/cl_cin.obj
+         .\Debug_TA/cl_console.obj
+         .\Debug_TA/cl_input.obj
+         .\Debug_TA/cl_keys.obj
+         .\Debug_TA/cl_main.obj
+         .\Debug_TA/cl_net_chan.obj
+         .\Debug_TA/cl_parse.obj
+         .\Debug_TA/cl_scrn.obj
+         .\Debug_TA/cl_ui.obj
+         .\Debug_TA/snd_adpcm.obj
+         .\Debug_TA/snd_dma.obj
+         .\Debug_TA/snd_mem.obj
+         .\Debug_TA/snd_mix.obj
+         .\Debug_TA/snd_wavelet.obj
+         .\Debug_TA/q_math.obj
+         .\Debug_TA/q_shared.obj
+         .\Debug_TA/cmd.obj
+         .\Debug_TA/cm_load.obj
+         .\Debug_TA/cm_patch.obj
+         .\Debug_TA/cm_polylib.obj
+         .\Debug_TA/cm_test.obj
+         .\Debug_TA/cm_trace.obj
+         .\Debug_TA/common.obj
+         .\Debug_TA/cvar.obj
+         .\Debug_TA/files.obj
+         .\Debug_TA/huffman.obj
+         .\Debug_TA/md4.obj
+         .\Debug_TA/msg.obj
+         .\Debug_TA/net_chan.obj
+         .\Debug_TA/unzip.obj
+         .\Debug_TA/vm.obj
+         .\Debug_TA/vm_interpreted.obj
+         .\Debug_TA/vm_x86.obj
+         .\Debug_TA/sv_bot.obj
+         .\Debug_TA/sv_ccmds.obj
+         .\Debug_TA/sv_client.obj
+         .\Debug_TA/sv_game.obj
+         .\Debug_TA/sv_init.obj
+         .\Debug_TA/sv_main.obj
+         .\Debug_TA/sv_net_chan.obj
+         .\Debug_TA/sv_snapshot.obj
+         .\Debug_TA/sv_world.obj
+         .\Debug_TA/win_input.obj
+         .\Debug_TA/win_main.obj
+         .\Debug_TA/win_net.obj
+         .\Debug_TA/win_shared.obj
+         .\Debug_TA/win_snd.obj
+         .\Debug_TA/win_syscon.obj
+         .\Debug_TA/win_wndproc.obj
+         "C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\botlib\Debug_TA\botlib.lib"
+         "C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\renderer\Debug_TA\renderer.lib"
+         "C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\splines\Debug\Splines.lib"
+     1>cl_cgame.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         quake3.vcxproj -> C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\.\Debug_TA\quake3.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\bscmake.exe /nologo /o".\Debug_TA\quake3.bsc" .\Debug_TA/cl_cgame.sbr .\Debug_TA/cl_cin.sbr .\Debug_TA/cl_console.sbr .\Debug_TA/cl_input.sbr .\Debug_TA/cl_keys.sbr .\Debug_TA/cl_main.sbr .\Debug_TA/cl_net_chan.sbr .\Debug_TA/cl_parse.sbr .\Debug_TA/cl_scrn.sbr .\Debug_TA/cl_ui.sbr .\Debug_TA/snd_adpcm.sbr .\Debug_TA/snd_dma.sbr .\Debug_TA/snd_mem.sbr .\Debug_TA/snd_mix.sbr .\Debug_TA/snd_wavelet.sbr .\Debug_TA/q_math.sbr .\Debug_TA/q_shared.sbr .\Debug_TA/cmd.sbr .\Debug_TA/cm_load.sbr .\Debug_TA/cm_patch.sbr .\Debug_TA/cm_polylib.sbr .\Debug_TA/cm_test.sbr .\Debug_TA/cm_trace.sbr .\Debug_TA/common.sbr .\Debug_TA/cvar.sbr .\Debug_TA/files.sbr .\Debug_TA/huffman.sbr .\Debug_TA/md4.sbr .\Debug_TA/msg.sbr .\Debug_TA/net_chan.sbr .\Debug_TA/unzip.sbr .\Debug_TA/vm.sbr .\Debug_TA/vm_interpreted.sbr .\Debug_TA/vm_x86.sbr .\Debug_TA/sv_bot.sbr .\Debug_TA/sv_ccmds.sbr .\Debug_TA/sv_client.sbr .\Debug_TA/sv_game.sbr .\Debug_TA/sv_init.sbr .\Debug_TA/sv_main.sbr .\Debug_TA/sv_net_chan.sbr .\Debug_TA/sv_snapshot.sbr .\Debug_TA/sv_world.sbr .\Debug_TA/win_input.sbr .\Debug_TA/win_main.sbr .\Debug_TA/win_net.sbr .\Debug_TA/win_shared.sbr .\Debug_TA/win_snd.sbr .\Debug_TA/win_syscon.sbr .\Debug_TA/win_wndproc.sbr
+       PostBuildEvent:
+         rem bash -c "perl ./unix/cons -- debug-TA"
+         :VCEnd
+     1>Done Building Project "C:\Program Files (x86)\Steam\steamapps\common\Quake 3 Arena\source\code\quake3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.38
